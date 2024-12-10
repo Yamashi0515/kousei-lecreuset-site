@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    display: flex; /* 子要素を横並びにする */
+    justify-content: space-between; /* 子要素の間を均等に配置 */
+    align-items: center; /* 垂直方向を中央揃え */
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #c0392b;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+header .btn {
+    background-color: #c0392b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 20px; /* ロゴとの間隔を調整 */
+}
+
+#hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    font-size: 36px;
+}
+
+#hero .btn {
+    background-color: #c0392b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-item {
+    text-align: center;
+    max-width: 200px;
+}
+
+.product-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px 0;
+}
+
